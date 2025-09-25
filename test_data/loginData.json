@@ -1,0 +1,44 @@
+[
+  {
+    "scenario": "Đăng nhập thành công",
+    "email": "a.nguyen@example.com",
+    "password": "12345", 
+    "expected": "Đăng nhập thành công"
+  },
+  {
+    "scenario": "Đăng nhập thất bại - sai mật khẩu", 
+    "email": "a.nguyen@example.com", 
+    "password": "wrongpassword", 
+    "expected": "Sai email hoặc mật khẩu"
+  },
+  {
+    "scenario": "Đăng nhập thất bại - không nhập mật khẩu",
+    "email": "a.nguyen@example.com",
+    "password": "",
+    "expected": "Sai email hoặc mật khẩu"
+  }, 
+  {
+    "scenario": "Đăng nhập thất bại - sai format email - thiếu @",
+    "email": "a.nguyen.example.com",
+    "password": "12345",
+    "expected": "Please include an '@' in the email address."
+  },
+  {
+    "scenario": "Đăng nhập thất bại - sai format email - thiếu tên miền",
+    "email": "a.nguyen@",
+    "password": "12345",
+    "expected": "Please enter a part following '@'. 'a.nguyen@' is incomplete."
+  },
+  {
+    "scenario": "Đăng nhập thất bại - có 2 dấu @ trong email",
+    "email": "a.nguyen@@example.com",
+    "password": "12345",
+    "expected": "A part following '@' should not contain the symbol '@'."
+  },
+  {
+    "scenario": "Đăng nhập thất bại - không nhập email",
+    "email": "",
+    "password": "12345",
+    "expected": "Please fill out this field."
+  }
+]

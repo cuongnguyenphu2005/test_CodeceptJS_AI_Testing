@@ -1,0 +1,27 @@
+{
+  "name": "codeceptjs_ai_testing",
+  "version": "1.0.0",
+  "description": "This project demonstrates how to use CodeceptJS AI Testing to perform end-to-end testing on a web application login page.",
+  "main": "codecept.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "codeceptjs": "^3.7.5",
+    "dotenv": "^17.2.2",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.55.1"
+  },
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "allure-commandline": "^2.34.1",
+    "mocha": "^11.7.2"
+  }
+}
