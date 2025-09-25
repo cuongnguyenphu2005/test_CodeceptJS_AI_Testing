@@ -23,7 +23,7 @@ Dự án này thể hiện cách sử dụng CodeceptJS với Azure OpenAI để
 
 1. Clone dự án:
 ```bash
-git clone https://github.com/your-username/codeceptjs-ai-testing.git
+git clone https://github.com/cuongnguyenphu2005/codeceptjs-ai-testing.git
 cd codeceptjs-ai-testing
 ```
 
