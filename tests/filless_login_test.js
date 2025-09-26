@@ -1,7 +1,7 @@
 const { I } = inject();
 const assert = require('assert');
 const LoginPage = require('../pages/LoginPage');
-const cases = require('../testdata/loginData.json');
+const cases = require('../test_data/loginData.json');
 
 Feature('Login - Email Validation');
 
