@@ -1,6 +1,6 @@
 const { I } = inject();
 const LoginPage = require('../pages/LoginPage');
-const cases = require('../testdata/loginData.json');
+const cases = require('../test_data/loginData.json');
 
 Feature('Login');
 
